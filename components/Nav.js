@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import { } from "../pages/map";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header>
+    <header className="sticky top-0">
       <div>
         <nav className="bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
