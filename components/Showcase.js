@@ -5,7 +5,8 @@ function Nav() {
   return (
     <section>
       <div>
-        <img className="bg-contain" src="../ShowcaseImage.jpg" alt="" />
+        <p>somting</p>
+        <img src="../ShowcaseImage.jpg" alt="" />
       </div>
     </section>
   );
