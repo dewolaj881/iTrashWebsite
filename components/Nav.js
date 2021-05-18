@@ -8,9 +8,9 @@ function Nav() {
       <div>
         <nav className="bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-16">
+            <div className="flex justify-between h-16">
               <div className="flex items-center">
-                <div className="flex-shrink-0 flex justify-items-center text-black">
+                <div className="flex-shrink-0 flex items-center text-black">
                   <img
                     className="h-12 w-12"
                     src="https://freesvg.org/img/1443908522.png"
