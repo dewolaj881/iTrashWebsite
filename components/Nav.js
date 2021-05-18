@@ -6,20 +6,20 @@ function Nav() {
   return (
     <header className="sticky top-0">
       <div>
-        <nav className="bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between h-16">
-              <div className="flex items-center">
+        <nav className="bg-white opacity-90">
+          <div className="mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex h-16 mx-auto max-w-7xl">
+              <div className="w-full justify-between flex items-center">
                 <div className="flex-shrink-0 flex items-center text-black">
                   <img
                     className="h-12 w-12"
-                    src="https://freesvg.org/img/1443908522.png"
+                    src="../logo.png"
                     alt="Workflow"
                   />
                   <a href="/index">iTrash</a>
                 </div>
-                <div className="hidden md:block">
-                  <div className="ml-10 flex items-baseline space-x-4">
+                <div className="hidden md:flex">
+                  <div className="ml-10 flex items-baseline justify-end space-x-4">
                     <a
                       href="/map"
                       className=" hover:bg-gray-700 text-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -56,7 +56,7 @@ function Nav() {
                   onClick={() => setIsOpen(!isOpen)}
                   type="button"
                   className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-                  aria-controls="mobile-menu"
+                  aria-controls="mobile-m`enu"
                   aria-expanded="false"
                 >
                   <span className="sr-only">Open main menu</span>
