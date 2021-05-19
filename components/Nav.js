@@ -18,7 +18,7 @@ function Nav() {
                   />
                   <a href="/index">iTrash</a>
                 </div>
-                <div className="hidden md:flex">
+                <div className="hidden lg:flex">
                   <div className="ml-10 flex items-baseline justify-end space-x-4">
                     <a
                       href="/map"
